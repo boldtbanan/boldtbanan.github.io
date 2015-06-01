@@ -1,0 +1,41 @@
+#
+# Blog Settings
+#
+author: Ian Garrison
+description: It's not rocket science
+url: http://itsnotrocketscience.me
+title: It's not rocket science
+subtitle: ...but sometimes it feels that way
+gravatar_url: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd
+#subscribe_rss: http://feeds.haacked.com/haacked
+
+# Github repositories
+github_user: boldtbanan
+github_repo_url: https://github.com/boldtbanan/boldtbanan.github.io/
+
+# Twitter
+twitter_user: boldtbanan
+twitter_tweet_button: true
+
+# Disqus Comments
+disqus_short_name: itsnotrocketscienceme
+disqus_show_comment_count: true
+
+# Google Analytics
+google_analytics_tracking_id: UA-47554542-1
+
+
+#
+# Jekyll Settings
+#
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+permalink: /archive/:year/:month/:day/:title/
+paginate: 20
+paginate_path: "page/:num"
+category_dir: categories
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap

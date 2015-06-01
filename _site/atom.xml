@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[It's not rocket science]]></title>
+  <link href="http://itsnotrocketscience.me/atom.xml" rel="self"/>
+  <link href="http://itsnotrocketscience.me/"/>
+  <updated>2015-06-01T15:33:44-05:00</updated>
+  <id>http://itsnotrocketscience.me/</id>
+  <author>
+    <name><![CDATA[Ian Garrison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  
+  <entry>
+    <title type="html"><![CDATA[It's Coming Right for Us!]]></title>
+    <link href="http://itsnotrocketscience.me/archive/2015/06/01/its-coming-right-for-us/"/>
+    <updated>2015-06-01T06:52:37-05:00</updated>
+    <id>http://itsnotrocketscience.me/archive/2015/06/01/its-coming-right-for-us</id>
+    <content type="html"><![CDATA[<p>I&#39;ve been involved with several development teams that lost their way. They got overwhelmed by incoming requests and made some bad decisions that derailed progress on what should have been their main focus.</p>
+
+<p>It wasn&#39;t totally their fault. Triage is hard. It takes a lot of discipline (and support from above) to say &quot;no&quot; to the person <em>passionately arguing with you</em> about how X needs to be done RIGHT NOW, even if it&#39;s not the most valuable thing you could be doing.</p>
+
+<h2>You have limited resources</h2>
+
+<p>If you had infinite resources, you wouldn&#39;t need to triage. You could do everything you want to and damn the consequences. Sounds like a wonderful world.</p>
+
+<p>It&#39;s not.</p>
+
+<p>When you have unlimited resources, you build more than you need to. China has <a href="http://www.thebohemianblog.com/2014/02/welcome-to-ordos-world-largest-ghost-city-china.html">entire cities</a> that were built for a population boom that never happened. </p>
+
+<p><a href="http://img.svbtle.com/ybuhed7nefxfw.jpg"><img src="https://d23f6h5jpj26xu.cloudfront.net/ybuhed7nefxfw_small.jpg" alt="Chinese ghost city"></a>
+<span style="font-family: arial; font-size: xx-small;">Empty roads in Zhengzhou (source: <a href="http://www.panoramio.com/photo/4956519">Panoramio</a>)</span></p>
+
+<p>It&#39;s even easier to overbuild software. Instead of rounding up millions of dollars in construction equipment, spending years in planning, and hiring thousands of workers, you just write a few user stories. You&#39;re the product owner right? So let&#39;s get the team working on that pronto!</p>
+
+<p>Ok, reality check. You&#39;re not China. You don&#39;t have a trade surplus of roughly 50 kajillion dollars/euros/bottle caps. You have limited time, limited budget, and limited skills on your team, so you need to make some tough decisions as to what gets done. </p>
+
+<h2>Rule #1: Don&#39;t triage like it&#39;s self-defense</h2>
+
+<p>If you really want to get a handle on your backlog, you first have to figure out what fires you can let burn. Some will burn themselves out quickly, others continue to smolder but never pose an existential threat. Identify those and get them out of the way. </p>
+
+<p>Yes it&#39;s painful. We all want to create the perfect product. We think that means it can&#39;t have imperfections, so we lie to ourselves just a little bit to justify fixing that alignment issue, or adding validation to restrict that name field to 600 characters (because otherwise it will throw an error when we try to write to the database and that&#39;s so horrible!). We end up overreacting to every minor thing because we want to.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nt6kKhlX8vU" frameborder="0" allowfullscreen></iframe>
+
+<p>Take a deep breath and repeat after me: &quot;let it burn.&quot;</p>
+
+<p>We used to fight wildfires by putting out every fire that sprang up before it could spread. It turns out <a href="%5Bhttp://usatoday30.usatoday.com/news/nation/2006-11-07-fire-management_x.htm">that was a pretty bad idea.</a> We ended up with more severe fires in the end. Now we spend more time <em>managing</em> fires as they burn, and spend fewer resources with a better outcome.</p>
+
+<p>If you&#39;re putting out every fire as fast as you can, I guarantee you&#39;re building up a hidden layer of hacks and tangled code below the surface. Instead of saving your application, you are <a href="http://www.ontechnicaldebt.com/blog/bad-code-isnt-technical-debt-its-an-unhedged-call-option/">increasing the risk of catastrophic failure</a>. So take a breath and figure out how to fix the cause, and not the symptoms.</p>
+
+<h2>Rule #2: Opportunity cost dwarfs all other costs</h2>
+
+<p>When you have limited resources, <em>be lazy</em>. Figure out how you can add the most value with the least amount of effort. Look for the ideas that will give you a 10x, 100x, or 1000x return on investment. It&#39;s easy to fill a list with 1.5x, ideas, but working on those means you&#39;re <em>not</em> working on something that can get you that 100x return.</p>
+
+<p>What&#39;s a 100x idea? It might be a feature that opens your product to a new market. It could be figuring out continuous deployment so your team gets back 80 hours a month to work on new things. Find the bottlenecks in your process and remove them, and write the tools that allow you to create more value with less effort. Take advantage of the fact that productivity gains are multiplicative: if you can do 3 things, each of which gives you a 100% gain, you have an 800% improvement overal (2 x 2 x 2)! It takes almost 22 10% gains to get that return.</p>
+
+<p>When you&#39;re going through your list of 1.5x work, always keep your eyes open for the 100x gems and do those first. Your time is too valuable not to.</p>
+
+<h2>Rule #3: Involve the right people</h2>
+
+<p>Triage is about making <em>good enough</em> judgements. The first thing you need to do is figure out who should be involved. You need the following voices represented:</p>
+
+<h3>Product Owner/Project Manager - Referee</h3>
+
+<p>You run the discussion and makes the decisions based on everyone&#39;s input. You also represent the product interests (marketability, revenue/cost saving opportunity - essentially the ROI) of each feature. As Product Owner, you own the inbox and backlog, so you better be there!</p>
+
+<h3>Engineering - Sizing, Sanctity of the System</h3>
+
+<p>How big is this request? Is there another way to solve the problem? Is the feature already in the system, but nobody knows where it&#39;s buried? You know these answers better than anybody else on the team.</p>
+
+<p>You also represent the sanctity of the system. Is this feature worth the additional complexity and costs that it will incur to maintain? <strong><em><a href="">60 - 95% of the total cost of ownership of a system is in  maintenance</a></em></strong> <strong><em>citation needed</em></strong>. Will it make it harder to add new features in the future? Argue against technical debt.</p>
+
+<h3>QA/Test - Confidence in the System</h3>
+
+<p>The end user is your primary concern. How big of an issue is that bug really. Is it something they will encounter 1% of the time, or 100%, and if they do, does it really matter? </p>
+
+<p>There are many end users, and you represent them all: customers, dev ops, maintenance teams, etc. What does quality mean to each of these? Ultimately, it&#39;s about not getting their way: </p>
+
+<ul>
+<li>Having a system that rarely crashes keeps your team focused on planned work</li>
+<li>Making sure customers can easily navigate your system keeps them happy and makes your product more marketable</li>
+<li>Solid, consistent design provides the <em>je ne sais quoi</em> that makes everything just feel <em>right</em></li>
+</ul>
+
+<h3>The person who made the request - Why?</h3>
+
+<p>The team should <a href="http://en.wikipedia.org/wiki/5_Whys">ask questions</a> to <a href="http://jasonevanish.com/2012/01/06/dont-build-that-feature-how-to-use-the-5-whys-to-learn-what-your-customer-really-is-saying/">understand what the reasoning behind any request</a>. The best person to ask is the person who made the request. Using a proxy can reduce the number of people in the meeting, but sacrifices the ability to dive deep into the problem. Triage often, keep focused in the meeting, and you&#39;ll keep these meetings small and fast.</p>
+
+<h2>Rule #4: Start with &quot;no&quot;</h2>
+
+<p><a href="http://img.svbtle.com/jubmafssa2wxw.jpg"><img src="https://d23f6h5jpj26xu.cloudfront.net/jubmafssa2wxw_small.jpg" alt="Bear saying no"></a></p>
+
+<p>Your backlog is like a backpack that you have to carry every day. Every user story, every task, and every bug has it&#39;s own weight. Carry too many and you spend all of your time triaging and re-triaging and shuffling tasks that you&#39;ll never have enough time left to work on.</p>
+
+<p>When you discuss a new enhancement or bug, start by rejecting it. Once you do that, you can start to sell it to yourself: Why is it more valuable than what you already have planned? Starting with &quot;no&quot; helps you get in the right mindset to stick to rules 1 and 2.</p>
+
+<p>Starting with &quot;no&quot; is also good for your integrity. You <em>can&#39;t</em> do everything people ask for. Be up front about that. If you can legitimately consider someone&#39;s request and tell them that you&#39;re not going to address it up front, you will have a much easier time meeting expectations with the ones you accept.</p>
+
+<p>You also need to change what you mean by &quot;no.&quot; Most people see &quot;no&quot; as an absolute, as in &quot;no, we are <em>never</em> going to do that.&quot; It should mean &quot;we can&#39;t justify doing that <em>at this time</em>.&quot; Priorities change, new justifications emerge. Just because you reject something today, doesn&#39;t mean you will reject it a month from now, but you don&#39;t want to carry the baggage of all the ideas you rejected. So make it OK for people to ask again if they still have the same problems in a month, or a year.</p>
+
+<h2>Rule #5: Go fast!</h2>
+
+<p>Spend just enough time to understand the problem and get an idea of how big it is. You want to answer two questions in triage:</p>
+
+<ol>
+<li>Is this problem worth solving?</li>
+<li>When should you solve it?</li>
+</ol>
+
+<p>If the answer to #1 is no, then you&#39;re done.</p>
+
+<p>If the answer to #2 isn&#39;t within the next 2-3 quarters, reject it (see rule #4).</p>
+
+<p>From there, either take the request into your current backlog to be fleshed out by the Product Owner, or drop it on your roadmap and look at it again when you get there (don&#39;t spend any more time on these until you&#39;re about a month out).</p>
+
+<p>Your triage process needs to be fast so you can respond to requests quickly. Your only answers are &quot;we won&#39;t address this now&quot; and &quot;we&#39;ll look into it some more.&quot; Commitment comes later.</p>
+
+<h2>Good triage requires discipline</h2>
+
+<p>I like to have one 30 minute inbox review meeting each week (Fridays work great). It&#39;s important to stay focused on the go/no-go decision to make the best use of everybody&#39;s time. Follow up on the items you accept into your backlog after the meeting to get them ready for development. </p>
+
+<p>Don&#39;t discuss solutions. Don&#39;t argue about why you are rejecting something. If you get off track, table the discussion and continue later. Stay disciplined and you&#39;ll have a clean way to vet requests and make quick, informed decisions. A good triage process keeps your team focused on the right things, and reduces chaos, allowing you to get more done with the limited resources you have available. </p>
+]]></content>
+  </entry>
+  
+  
+</feed>
