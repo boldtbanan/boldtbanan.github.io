@@ -17,8 +17,7 @@ It's not.
 
 When you have unlimited resources, you build more than you need to. China has [entire cities](http://www.thebohemianblog.com/2014/02/welcome-to-ordos-world-largest-ghost-city-china.html) that were built for a population boom that never happened. 
 
-[![Chinese ghost city](https://d23f6h5jpj26xu.cloudfront.net/ybuhed7nefxfw_small.jpg)](http://img.svbtle.com/ybuhed7nefxfw.jpg)
-<span style="font-family: arial; font-size: xx-small;">Empty roads in Zhengzhou (source: <a href="http://www.panoramio.com/photo/4956519">Panoramio</a>)</span>
+[![Empty roads in Zhengzhou (source: <a href="http://www.panoramio.com/photo/4956519">Panoramio</a>)](https://d23f6h5jpj26xu.cloudfront.net/ybuhed7nefxfw_small.jpg)](http://img.svbtle.com/ybuhed7nefxfw.jpg)
 
 It's even easier to overbuild software. Instead of rounding up millions of dollars in construction equipment, spending years in planning, and hiring thousands of workers, you just write a few user stories. You're the product owner right? So let's get the team working on that pronto!
 
@@ -59,7 +58,7 @@ You run the discussion and makes the decisions based on everyone's input. You al
 
 How big is this request? Is there another way to solve the problem? Is the feature already in the system, but nobody knows where it's buried? You know these answers better than anybody else on the team.
 
-You also represent the sanctity of the system. Is this feature worth the additional complexity and costs that it will incur to maintain? ***[60 - 95% of the total cost of ownership of a system is in  maintenance]()*** ***citation needed***. Will it make it harder to add new features in the future? Argue against technical debt.
+You also represent the sanctity of the system. Is this feature worth the additional complexity and costs that it will incur to maintain? [40 - 80% of the total cost of ownership of a system is in  maintenance](http://www.kictanet.or.ke/wp-content/uploads/2012/08/Forgotten-Fundamentals-IEEE-Software-May2001.pdf). Will it make it harder to add new features in the future? Argue against technical debt.
 
 ### QA/Test - Confidence in the System
 
@@ -77,7 +76,7 @@ The team should [ask questions](http://en.wikipedia.org/wiki/5_Whys) to [underst
   
 ## Rule #4: Start with "no"
 
-[![Bear saying no](https://d23f6h5jpj26xu.cloudfront.net/jubmafssa2wxw_small.jpg)](http://img.svbtle.com/jubmafssa2wxw.jpg)
+[![Don't mess with the bear](https://d23f6h5jpj26xu.cloudfront.net/jubmafssa2wxw_small.jpg)](http://img.svbtle.com/jubmafssa2wxw.jpg)
 
 Your backlog is like a backpack that you have to carry every day. Every user story, every task, and every bug has it's own weight. Carry too many and you spend all of your time triaging and re-triaging and shuffling tasks that you'll never have enough time left to work on.
 
