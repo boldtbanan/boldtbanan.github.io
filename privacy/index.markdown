@@ -3,14 +3,13 @@ layout: page
 title: "Privacy Policy"
 date: 2004-09-01 -0800
 comments: false
-disqus_identifier: 1095
 categories: []
 sharing: false
 ---
 
 ## What? Why Have A Privacy Policy?
 
-Well, you wouldn't want Haacked.com sharing all sorts of deeply
+Well, you wouldn't want me sharing all sorts of deeply
 personal information about you, would you? Well of course not. Besides,
 some affiliate programs require a privacy policy. So here you go, a
 privacy policy.
@@ -42,8 +41,3 @@ See the previous answer about Disqus and Google Analytics.
 ## So Who Do You Share This Information With?
 
 Absolutely nobody, other than occasionally posting aggregate stats about my blog on occasion.
-
-## Even If I Offered You 10 Million Dollars?
-Let's talk off-line in private.... er... I mean NO! Absolutely Not.
-Haacked.com doesn't gather any information worth selling.
-

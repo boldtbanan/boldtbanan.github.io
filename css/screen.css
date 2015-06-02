@@ -84,7 +84,7 @@ a {
     -o-transition: color 0.3s;
     transition: color 0.3s;
 }
-#header a:hover { color: #258fb8 }
+#header a:hover { color: #C33450 }
 #header h1 {
     font-family: "Open Sans";
     font-weight: 400;
@@ -142,7 +142,7 @@ a {
     }
     #main-nav>ul>li:last-of-type { margin-right: 0 }
 }
-#main-nav>ul>li:hover>a { color: #258fb8 }
+#main-nav>ul>li:hover>a { color: #C33450 }
 #main-nav>ul>li>a {
     padding: 38px 0;
     margin-top: -38px;
@@ -584,7 +584,7 @@ ul.categories { font-family: "Open Sans" }
 ul.categories span.size { font-size: 0.7em }
 a:hover { -webkit-transition: color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s;color:#4466c5 }
 #content article h1.title a:hover,
-.left-col a:hover { color: #4466c5 }
+.left-col a:hover { color: #C33450 }
 #page-navigation {
     font-family: arial;
     width: 100%;
