@@ -1,6 +1,6 @@
-# Haacked.com
+# boldtbanan.github.io
 
-This is my blog. There are many like it, but this one is mine.
+This is my blog. There are many like it, but this one is mine. And yes, I pretty much forked this from haacked.com, so it has some stuff that I haven't cleaned up yet.
 
 ## Run it locally
 
