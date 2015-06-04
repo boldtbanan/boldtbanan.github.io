@@ -7,7 +7,7 @@ categories: [product owner, agile]
 
 User stories are the backbone of agile's todo-list-driven development model. Whether you use kanban, scrum, xp, or any hybrid, user stories are the basis for communicating what you want to build to the people who will build it.
 
-I don't want to talk about how to write a good user story. I mean, I love talking about that, and I'm sure I'll write a long article about it someday, but for *this post* I want to take a step back and talk about at how to use them.
+I'm not going to talk about how to write a good user story. I mean, I love talking about that, and I'm sure I'll write a long article about it someday, but for *this post* I want to take a step back and talk about at how to use them.
 
 ##What's in a story?
 
@@ -15,13 +15,32 @@ Most training on user stories tells you to write something like this:
 
 **As a [user role] I can [activity] so that [business value].**
 
-That's a powerful structure. It puts focus on your users and what they are trying to accomplish by using the feature you want to build. It narrows focus to a manageable piece of work that should be (relatively) easy to complete. 
+That's a powerful structure. It puts focus on your users and what they are trying to accomplish by using the feature you want to build. It narrows focus to a manageable piece of work that should be (relatively) easy to complete. And it gives you a simple foundation on which to build your spec.
 
-And it's just the tip of the iceburg.
+But if that's all you're using them for, you're missing the forest for the trees.
 
 ##Choose your own adventure
 
-Writing user stories is a bit like writing a Choose Your Own Adventure novel
+When you build software, you don't have a blueprint to follow. Sure, you have *parts* of a blueprint: how do you create a database table over here, a standard file uploader over there. But the end result, the exact combination of business rules and UX that you are pulling out of thin air, has never existed before in the history of the world!
+
+So if you're building something that never existed, how do you get there?
+
+If you follow waterfall methods, you spend a lot of time up front writing a spec. Then you start building, things start going wrong, the spec becomes useless but everyone tries to follow it, and the project flounders.
+
+With agile methods, you get someone to be the voice of your users/customers. That person (the Product Owner or whatever you call him) is the spec. User stories are a tool for controlling the flow of work from his head to the dev teams so you end up with something that solves the right problem at the right time.
+
+##Rapid prototyping
+
+The flow control aspect 
+
+
+> If I were given one hour to save the planet, I would spend 59 minutes defining the problem and 1 minute resolving it. *~ Albert Einstein*
+
+
+
+Building software is a lot like writing a **Choose Your own Adventure** novel. You come up with 
+
+
 
 [Magic school bus "take chances, make mistakes" quote]
 
