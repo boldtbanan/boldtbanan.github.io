@@ -7,6 +7,8 @@ categories: [product owner, agile]
 
 User stories are the backbone of agile's todo-list-driven development model. Whether you use kanban, scrum, xp, or any hybrid, user stories are the basis for communicating what you want to build to the people who will build it.
 
+I don't want to talk about how to write a good user story. I mean, I love talking about that, and I'm sure I'll write a long article about it someday, but for *this post* I want to take a step back and talk about at how to use them.
+
 ##What's in a story?
 
 Most training on user stories tells you to write something like this:
@@ -15,9 +17,13 @@ Most training on user stories tells you to write something like this:
 
 That's a powerful structure. It puts focus on your users and what they are trying to accomplish by using the feature you want to build. It narrows focus to a manageable piece of work that should be (relatively) easy to complete. 
 
-And it's completely inadequate.
+And it's just the tip of the iceburg.
 
-I'm not going to get into what it takes to turn a user story into a real spec. There is plenty written on that all over the internet.
+##Choose your own adventure
+
+Writing user stories is a bit like writing a Choose Your Own Adventure novel
+
+[Magic school bus "take chances, make mistakes" quote]
 
 What I want to talk about is what user stories are good for, and why you should spend more time on them than you do.
 
