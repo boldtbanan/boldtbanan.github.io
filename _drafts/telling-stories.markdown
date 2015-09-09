@@ -29,7 +29,7 @@ If you follow Waterfall methods, you spend a lot of time up front writing a spec
 
 With a Scrum/XP approach, you get someone to be the voice of your users and customers. That person (the Product Owner or whatever you call him) is the spec. User stories are a tool for controlling the flow of work from his head to the dev teams so you end up with something that solves the right problem at the right time and can be accomplished with the people available.
 
-##Telling Stories
+##Telling Stories: From Shakespeare to Software
 
 Writing user stories is a creative process. You create all these little vignettes and blend them together into a cohesive experience. Many techniques from creative writing apply as well.
 
@@ -63,7 +63,7 @@ There's another benefit to using smaller stories.
 
 ##Rapid prototyping
 
-Use stories are cheap. It doesn't take much time to write 1-2 sentences to describe a piece of functionality. You don't need high resolution designs, or UX studies, or tech spikes to talk about what you want to build, just a few minutes to jot down some ideas and start piecing them together.
+User stories are cheap. It doesn't take much time to write 1-2 sentences to describe a piece of functionality. You don't need high resolution designs, or UX studies, or tech spikes to talk about what you want to build, just a few minutes to jot down some ideas and start piecing them together.
 
 > The best way to have a good idea is to have a lot of ideas. *~ Linus Pauling*
 
@@ -71,9 +71,9 @@ There is no *right* way to build a feature. This isn't a grade school math test,
 
 Improve your odds by coming up with multiple ideas and vetting those when it's cheapest. Fail fast. The structure of user stories helps you figure out what you're going to do in the first place. Iterating on different versions of a feature raises different questions and helps you get to a better guess. Don't spend 2 weeks deciding which color button is best for your login form, but do spend 2 weeks prototyping a key feature of your system with user stories before you spend months building it (you'll probably have small pieces that you can slice off before those 2 weeks are up anyway). 
 
-> If I were given one hour to save the planet, I would spend 59 minutes defining the problem and 1 minute resolving it. *~ Albert Einstein*
+> If I were given one hour to save the planet, I would spend 59 minutes defining the problem and 1 minute resolving it. *- Albert Einstein*
 
-Prototyping with user stories helps you define the problem as much as it defines the solution. Knowing what you are and *are not* solving gets people on the same page. You'll know your target market segment better, and can probide that context for all the decisions that developers will be making as they build the software. It all comes back to transparency and alignment.
+Prototyping with user stories helps you define the problem as much as it defines the solution. Knowing what you are and *are not* solving gets people on the same page. You'll know your target market segment better, and can provide that context for all the decisions that developers will be making as they build the software. It all comes back to transparency and alignment.
 
 ##It's a creative process
 
