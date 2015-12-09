@@ -8773,6 +8773,25 @@ th.hide-for-touch {
   margin: 0;
   text-align: right; }
 
+.history-items {
+  padding: 0;
+  margin: 0; }
+
+.history-item {
+  padding: .2rem .5rem;
+  list-style: none;
+  border: 2px solid #e7e7e7;
+  margin-bottom: .5rem; }
+  .history-item h6 {
+    font-size: .8rem;
+    font-style: italic; }
+  .history-item .inline-list {
+    margin-bottom: 0; }
+
+.no-history {
+  color: #ccc;
+  padding: 0 1rem 1rem; }
+
 .maturity-chart .radial-tree .link {
   stroke: #fc8d62; }
 
