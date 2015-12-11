@@ -6756,7 +6756,7 @@ th.hide-for-touch {
   font-weight: normal;
   font-style: normal; }
 
-.fa {
+.fa, .data-editor .file-upload .icon {
   display: inline-block;
   font: normal normal normal 14px / 1 FontAwesome;
   font-size: inherit;
@@ -6765,7 +6765,7 @@ th.hide-for-touch {
   -moz-osx-font-smoothing: grayscale; }
 
 /* makes the font 33% larger relative to the icon container */
-.fa-lg {
+.fa-lg, .data-editor .file-upload .icon {
   font-size: 1.33333em;
   line-height: 0.75em;
   vertical-align: -15%; }
@@ -6799,7 +6799,7 @@ th.hide-for-touch {
   width: 2.14286em;
   top: 0.14286em;
   text-align: center; }
-  .fa-li.fa-lg {
+  .fa-li.fa-lg, .data-editor .file-upload .fa-li.icon {
     left: -1.85714em; }
 
 .fa-border {
@@ -6813,10 +6813,10 @@ th.hide-for-touch {
 .fa-pull-right {
   float: right; }
 
-.fa.fa-pull-left {
+.fa.fa-pull-left, .data-editor .file-upload .fa-pull-left.icon {
   margin-right: .3em; }
 
-.fa.fa-pull-right {
+.fa.fa-pull-right, .data-editor .file-upload .fa-pull-right.icon {
   margin-left: .3em; }
 
 /* Deprecated as of 4.4.0 */
@@ -6826,10 +6826,10 @@ th.hide-for-touch {
 .pull-left {
   float: left; }
 
-.fa.pull-left {
+.fa.pull-left, .data-editor .file-upload .pull-left.icon {
   margin-right: .3em; }
 
-.fa.pull-right {
+.fa.pull-right, .data-editor .file-upload .pull-right.icon {
   margin-left: .3em; }
 
 .fa-spin {
@@ -7344,7 +7344,7 @@ th.hide-for-touch {
 .fa-github-square:before {
   content: ""; }
 
-.fa-upload:before {
+.fa-upload:before, .data-editor .file-upload .icon:before {
   content: ""; }
 
 .fa-lemon-o:before {
@@ -8766,6 +8766,16 @@ th.hide-for-touch {
   height: 20rem;
   width: 100%; }
 
+.data-editor form {
+  display: inline; }
+
+.data-editor .button i, .data-editor button i {
+  margin-right: .5rem; }
+
+.data-editor .file-upload {
+  display: inline-block;
+  margin-left: 1rem; }
+
 .algorithm-editor td {
   padding: .1rem; }
 
@@ -8780,17 +8790,24 @@ th.hide-for-touch {
 .history-item {
   padding: .2rem .5rem;
   list-style: none;
-  border: 2px solid #e7e7e7;
+  border-bottom: 2px solid #e7e7e7;
   margin-bottom: .5rem; }
+  .history-item:last-of-type {
+    border-bottom: 0px solid transparent; }
   .history-item h6 {
-    font-size: .8rem;
+    font-size: .9rem;
     font-style: italic; }
+  .history-item section {
+    float: right; }
   .history-item .inline-list {
     margin-bottom: 0; }
 
 .no-history {
   color: #ccc;
   padding: 0 1rem 1rem; }
+
+.file-upload input {
+  display: none; }
 
 .maturity-chart .radial-tree .link {
   stroke: #fc8d62; }
